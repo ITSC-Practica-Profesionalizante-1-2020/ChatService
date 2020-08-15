@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SharedModels;
 
 namespace ChatService.Data
 {
