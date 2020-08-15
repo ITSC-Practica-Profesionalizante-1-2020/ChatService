@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SharedModels;
 
 namespace ChatService.Data
 {
@@ -9,8 +10,8 @@ namespace ChatService.Data
         {
         }
 
-        public DbSet<Asistencia> Asistencias { get; set; }
-        public DbSet<Participante> Participantes { get; set; }
-        public DbSet<Sala> Salas { get; set; }
+        public DbSet<Chat> Chats { get; set; }
+        public DbSet<Chat_privado> Chats_privados { get; set; }
+        public DbSet<Mensaje> Mensajes { get; set; }
     }
 }
