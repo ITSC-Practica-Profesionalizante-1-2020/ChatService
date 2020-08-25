@@ -29,7 +29,7 @@ namespace ChatService
         {
             services.AddControllers();
             services.AddDbContext<DataContext>(options =>
-         options.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=API;Trusted_Connection=True"));
+         options.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=API_Chat;Trusted_Connection=True"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -9,8 +9,6 @@ namespace ChatService.Data
         {
         }
 
-        public DbSet<Chat> Chats { get; set; }
-        public DbSet<Chat_privado> Chats_privados { get; set; }
         public DbSet<Mensaje> Mensajes { get; set; }
     }
 }
